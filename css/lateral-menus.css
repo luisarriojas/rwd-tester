@@ -17,38 +17,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-
-    src: url('../img/glyphicons/glyphicons-halflings-regular.eot');
-    src: url('../img/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../img/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../img/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../img/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
 html, body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-.option{
-    text-decoration: none;
-}
-
-.glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    color:white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.glyphicon-align-justify:before{
-    content:"\e055"
 }
 
 #main {
@@ -90,32 +61,3 @@ html, body {
 .left-menu a {
     color: white;
 }
-
-header {
-    height: auto;
-    margin: 0;
-    padding: 5px 10px;
-    background-color: lightslategray;
-    box-shadow: 0 5px 5px black;
-    margin-bottom: 10px;
-}
-
-header #urlText {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    margin-left: 10px;
-}
-
-header #urlButton {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-}
-
-
-
-
-
-
-
-
-

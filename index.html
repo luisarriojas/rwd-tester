@@ -25,6 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <title>Responsive Web Design Tester</title>
 
     <!--my css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="css/lateral-menus.css" rel="stylesheet" type="text/css" media="screen"/>
     <!--my javascript-->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
@@ -39,8 +40,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </a>
         <!--End options-->
 
-        <input id="urlText">
-        <button id="urlButton">Test</button>
+        <div id="urlContainer">
+            <input id="urlText" placeholder="http://">
+        </div>
+
+        <a id="urlButton" href="javascript:void(0);">
+            <span class="glyphicon glyphicon-play"></span>
+        </a>
     </header>
 
     <iframe id="webContent"></iframe>

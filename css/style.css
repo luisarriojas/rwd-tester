@@ -1,0 +1,88 @@
+/*
+Responsive Web Design Tester
+Copyright (C) 2014  Luis Enrique Arriojas Catalini
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../img/glyphicons/glyphicons-halflings-regular.eot');
+    src: url('../img/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../img/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../img/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../img/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+    position: absolute;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-align-justify:before {
+    content: "\e055"
+}
+
+.glyphicon-play:before {
+    content: "\e072"
+}
+
+header {
+    height: auto;
+    margin: 0;
+    padding: 5px 0;
+    background-color: lightslategray;
+    box-shadow: 0 5px 5px black;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a .glyphicon-align-justify {
+    top: 12px;
+    left: 15px;
+}
+
+#urlContainer{
+    height:auto;
+    margin:0 50px 0 50px;
+}
+
+#urlText {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+header a .glyphicon-play {
+    top: 12px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
