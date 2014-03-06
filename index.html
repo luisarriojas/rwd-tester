@@ -1,6 +1,6 @@
 <!--
 Responsive Web Design Tester
-Copyright (C) 2014 Luis Enrique Arriojas Catalini
+Copyright (C) 2014  Luis Enrique Arriojas Catalini
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -16,28 +16,48 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <!doctype html>
-<html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Luis E. Arriojas C.">
 
     <title>Responsive Web Design Tester</title>
 
-    <!--my css and js-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/functions.js"></script>
+    <!--my css-->
+    <link href="css/lateral-menus.css" rel="stylesheet" type="text/css" media="screen"/>
+    <!--my javascript-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
 </head>
 <body>
+<!--Main container-->
+<div id="main">
+    <header>
+        <!--Options-->
+        <a menu="a" class="option" href="javascript:void(0);">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </a>
+        <!--End options-->
 
+        <input id="urlText">
+        <button id="urlButton">Test</button>
+    </header>
 
+    <iframe id="webContent"></iframe>
+</div>
 
+<!--Menu container-->
+<div id="menu-container">
+    <!--Menu A-->
+    <div id="menu-a" class="left-menu">
+        Hello, I'm the menu-a.
+        <br/>
+        <a class="option-close" href="javascript:void(0);">Close menu-a</a>
+    </div>
 
+    <!--Close button-->
+    <div id="close-button"></div>
+</div>
 
-
-
-
+<script type="text/javascript" src="js/side-menus.js"></script>
 </body>
-</html>

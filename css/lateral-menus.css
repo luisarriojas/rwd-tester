@@ -1,0 +1,121 @@
+/*
+Side Menus
+Copyright (C) 2014  Luis Enrique Arriojas Catalini
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../img/glyphicons/glyphicons-halflings-regular.eot');
+    src: url('../img/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../img/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../img/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../img/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.option{
+    text-decoration: none;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-align-justify:before{
+    content:"\e055"
+}
+
+#main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: url('../img/wallpaper.jpg');
+    background-size: cover;
+}
+
+#close-button {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: none;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.left-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    z-index: 100;
+    display: none;
+    box-shadow: -5px 0 5px black inset;
+    padding: 10px;
+    background: url('../img/a.png') repeat;
+    color: white;
+}
+
+.left-menu a {
+    color: white;
+}
+
+header {
+    height: auto;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: lightslategray;
+    box-shadow: 0 5px 5px black;
+    margin-bottom: 10px;
+}
+
+header #urlText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+header #urlButton {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
