@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <!--End options-->
 
         <div id="urlContainer">
-            <input id="urlText" placeholder="http://">
+            <input id="urlText" placeholder="http://" value="http://luisarriojas.com">
         </div>
 
         <a id="urlButton" href="javascript:void(0);">
@@ -56,9 +56,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <div id="menu-container">
     <!--Menu A-->
     <div id="menu-a" class="left-menu">
-        Hello, I'm the menu-a.
-        <br/>
-        <a class="option-close" href="javascript:void(0);">Close menu-a</a>
+        <a class="option-close" href="javascript:void(0);">
+            <span class="glyphicon glyphicon-remove"></span>
+        </a>
+
+        <h2>Customize screen</h2>
+        <table>
+            <tr>
+                <td>Width:</td>
+                <td><input id="width" placeholder="Width" value="1024"></td>
+            </tr>
+            <tr>
+                <td>Height:</td>
+                <td><input id="height" placeholder="Height" value="768"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="modifyButton">Modify screen</button>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Select a screen</h2>
+        <ul>
+            <li><a class="dimension" href="javascript:void(0);" data-width="1366" data-height="768">Laptop
+                (1366x768)</a></li>
+            <li><a class="dimension" href="javascript:void(0);" data-width="640" data-height="480">Monitor muy viejo</a>
+            </li>
+        </ul>
     </div>
 
     <!--Close button-->
@@ -66,4 +91,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 </div>
 
 <script type="text/javascript" src="js/side-menus.js"></script>
+<script type="text/javascript" src="js/tester.js"></script>
 </body>

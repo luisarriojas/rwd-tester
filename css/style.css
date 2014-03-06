@@ -43,27 +43,29 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     content: "\e072"
 }
 
+.glyphicon-remove:before {
+    content: "\e014"
+}
+
 header {
     height: auto;
     margin: 0;
     padding: 5px 0;
     background-color: lightslategray;
-    box-shadow: 0 5px 5px black;
-    margin-bottom: 10px;
 }
 
 header a {
     text-decoration: none;
 }
 
-header a .glyphicon-align-justify {
+header .glyphicon-align-justify {
     top: 12px;
     left: 15px;
 }
 
-#urlContainer{
-    height:auto;
-    margin:0 50px 0 50px;
+#urlContainer {
+    height: auto;
+    margin: 0 50px 0 50px;
 }
 
 #urlText {
@@ -73,13 +75,62 @@ header a .glyphicon-align-justify {
     margin: 0;
 }
 
-header a .glyphicon-play {
+header .glyphicon-play {
     top: 12px;
     right: 15px;
 }
 
+#webContent {
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    border: 0;
+}
 
+.left-menu .glyphicon-remove {
+    top: 12px;
+    right: 15px;
+    color:black;
+}
 
+.left-menu h2{
+    margin:0;
+}
+
+#width{
+    width:100px;
+}
+
+#height{
+    width:100px;
+}
+
+.left-menu table{
+    margin-bottom:15px;
+}
+
+.left-menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.left-menu li{
+    padding:5px;
+}
+
+.left-menu li:hover{
+    background-color: lightslategray;
+}
+
+.left-menu li a{
+    color:black;
+    text-decoration: none;
+}
+
+.left-menu li:hover a{
+    color:white;
+}
 
 
 

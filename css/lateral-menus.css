@@ -29,8 +29,7 @@ html, body {
     left: 0;
     right: 0;
     z-index: 0;
-    background: url('../img/wallpaper.jpg');
-    background-size: cover;
+    overflow: auto;
 }
 
 #close-button {
@@ -41,7 +40,7 @@ html, body {
     right: 0;
     z-index: 99;
     display: none;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(0, 0, 0, 0.75);
 }
 
 .left-menu {
@@ -54,10 +53,6 @@ html, body {
     display: none;
     box-shadow: -5px 0 5px black inset;
     padding: 10px;
-    background: url('../img/a.png') repeat;
-    color: white;
-}
-
-.left-menu a {
-    color: white;
+    background: url('../img/geometry.png') repeat;
+    color: black;
 }
