@@ -115,6 +115,10 @@ header .glyphicon-play {
     padding:0;
 }
 
+.left-menu ul label{
+    font-weight: bold;
+}
+
 .left-menu li{
     padding:5px;
 }
@@ -131,9 +135,3 @@ header .glyphicon-play {
 .left-menu li:hover a{
     color:white;
 }
-
-
-
-
-
-

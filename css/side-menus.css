@@ -55,4 +55,5 @@ html, body {
     padding: 10px;
     background: url('../img/geometry.png') repeat;
     color: black;
+    overflow: auto;
 }

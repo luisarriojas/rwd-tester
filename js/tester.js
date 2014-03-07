@@ -33,18 +33,32 @@ $("#modifyButton").click(function () {
 });
 
 $(".dimension").click(function () {
-    width = $(this).attr("data-width");
-    height = $(this).attr("data-height");
+    var width = $(this).attr("data-width");
+    var height = $(this).attr("data-height");
     $("#width").val(width);
     $("#height").val(height);
     modifyScreen();
 });
 
+$("#rotateButton").click(function () {
+    var width = $("#width").val();
+    var height = $("#height").val();
+
+    $("#width").val(height);
+    $("#height").val(width);
+    modifyScreen();
+});
 
 function modifyScreen() {
-    width = $("#width").val();
-    height = $("#height").val();
+    var width = $("#width").val();
+    var height = $("#height").val();
     $("#webContent").css('width', width);
     $("#webContent").css('height', height);
     sideReset();
 };
+
+$("#refreshButton").click(function () {
+    var url = $("#webContent").attr('src');
+    $("#webContent").attr('src', url);
+    sideReset();
+});
